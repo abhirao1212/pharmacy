@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/profile"
+        android:title="Profile"/>
+
+    <item android:id="@+id/category"
+        android:title="Category"/>
+
+    <item android:id="@+id/Add_cart"
+        android:title="Go To Cart"/>
+
+    <item android:id="@+id/Logout"
+        android:title="Logout"/>
+
+
+    <item android:id="@+id/help"
+        android:title="Doctor advice"/>
+
+
+
+</menu>

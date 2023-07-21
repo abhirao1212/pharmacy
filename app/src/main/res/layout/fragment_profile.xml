@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:padding="10dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/profile_img"
+        android:src="@drawable/docterimg"
+        android:layout_width="100dp"
+        android:layout_height="100dp"/>
+
+    <TextView
+        android:id="@+id/pro_name"
+        android:textStyle="bold"
+        android:padding="1dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:text=""
+        android:inputType="textPersonName"
+        android:layout_toRightOf="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+    <TextView
+        android:id="@+id/pro_email"
+        android:textStyle="bold"
+        android:padding="1dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:layout_toRightOf="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pro_name"/>
+
+    <TextView
+        android:id="@+id/pro_pass"
+        android:textStyle="bold"
+        android:padding="1dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:layout_toRightOf="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pro_email"/>
+
+    <TextView
+        android:id="@+id/pro_ad"
+        android:textStyle="bold"
+        android:padding="1dp"
+        android:layout_marginTop="20dp"
+        android:textSize="16dp"
+        android:layout_marginLeft="20dp"
+        android:text=""
+        android:layout_toRightOf="@+id/profile_img"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/pro_pass"/>
+
+</RelativeLayout>
